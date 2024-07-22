@@ -7,11 +7,14 @@
 body , html{
     background: url(../imagens/4258430578-guts_kabekin-mwgE-1920x1080-MM-100.jpg);
     height: 100%;
+    overflow: hidden;
+ 
 }
 header {
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: saturate(180%) blur(20px);
     padding: 5px;
+   
 }
 header > .conteiner_nav_header {
     display: flex;
@@ -33,6 +36,7 @@ header > .conteiner_nav_header > a:hover {
 main {
     position: relative;
     height: 100%;
+    overflow-y: auto;
 }
 main .conteiner_card{
     max-width: 900px;
@@ -82,4 +86,8 @@ main .conteiner_card{
 .card {
     margin-top: 30px;
 }
+}
+
+main article{
+    padding-top: 1060px;
 }
